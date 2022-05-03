@@ -137,7 +137,7 @@ body{
  }
 
  
- }
+ 
  .hero-item:not(:last-child){
      margin-right: 8px;
  }
@@ -312,8 +312,8 @@ body{
 }
 
 .header{
-    border: 1px;
-    color: #ECECEC;
+    border-bottom: 1px solid #ECECEC;
+    
 }
 .header-site{
     display: block;
@@ -372,6 +372,14 @@ body{
      text-align: center;
      padding-top: 200px;
      padding-bottom: 200px;
+     background-image:linear-gradient(rgba(47, 48, 58, 0.4), 
+     rgba(47, 48, 58, 0.4)), 
+     url(../img/фон.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     max-width: 1600px;
+     margin: 0 auto;
+     
     
  } 
 
@@ -478,7 +486,7 @@ body{
 
 }
 
-.img{
+.imgage{
     display: block;
 }
 
@@ -514,7 +522,6 @@ body{
 }
 
 .subject-text {
-    margin-top: 30px;
     margin-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
@@ -526,7 +533,6 @@ body{
 
 .subject-item{
     margin-top: 0;
-    margin-bottom: 30px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
@@ -540,7 +546,54 @@ body{
     margin-bottom: 0;
 }
 
+.subject-soc-list{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
 
+.subject-soc-item + .subject-soc-item{
+    margin-left: 10px;
+}
+.subject-soc-link{
+    width: 44px;
+    height: 44px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #AFB1B8;
+}
+
+.masters-soc-icon {
+    fill: currentColor;
+}
+
+.subject-soc-link:hover{
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+
+
+.headline-benefits-list{
+    display: flex;
+    justify-content: center;
+}
+
+.headline-benefits-item + .headline-benefits-item{
+
+    margin-left: 30px;
+}
+
+.headline-benefits-link{
+    width: 70px;
+    height: 70px;
+    background-color: rebeccapurple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
