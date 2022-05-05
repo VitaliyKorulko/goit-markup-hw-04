@@ -320,6 +320,38 @@ body{
     color: #FFFFFF;
 }
 
+.footer-head{
+    padding-bottom: 20px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.footer-icon-list{
+    display: flex;
+    justify-content: center;
+}
+.footer-icon-link{
+    width: 44px;
+    height: 44px;
+    background-color: #FFFFFF1A;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-icon-item + .footer-icon-item{
+    margin-left: 10px;
+}
+.footer-icon{
+    fill: #FFFFFF;
+}
+
+
  
 /* ---------------Index-HEADER------------- */
 .title-button:hover,
@@ -596,6 +628,7 @@ body{
 
 .subject-soc-link:hover{
     background-color: #2196F3;
+    color: #FFFFFF;
   
 }
 
